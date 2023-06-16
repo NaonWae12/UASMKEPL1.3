@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+        System.out.println("kalkulator sedrhana");
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan angka pertama: ");
+        System.out.print("Masukkan angka pertama:");
         double angka1 = scanner.nextDouble();
 
-        System.out.print("Masukkan angka kedua: ");
+        System.out.print("Masukkan angka kedua:");
         double angka2 = scanner.nextDouble();
 
         System.out.println("Pilih operasi matematika:");
@@ -17,7 +18,7 @@ public class App {
         System.out.println("2. Pengurangan");
         System.out.println("3. Perkalian");
         System.out.println("4. Pembagian");
-        System.out.print("Pilihan Anda: ");
+        System.out.print("Pilihan Anda:");
         int pilihan = scanner.nextInt();
 
         double hasil = 0;
